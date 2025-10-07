@@ -1,9 +1,8 @@
+body {
+  color: red;
+  }
 h1 {
 color: DodgerBlue;
 font-size: 1-rem; 
  text-decoration-line: overline;
-}
-body {
-  color: red;
-  
 }
