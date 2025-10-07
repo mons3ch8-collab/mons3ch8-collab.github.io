@@ -9,3 +9,7 @@ font-size: 1-rem;
 background { 
   color: green;
 }
+body { 
+  .p1 {
+  font-family: "Times New Roman", Times, serif;
+}
