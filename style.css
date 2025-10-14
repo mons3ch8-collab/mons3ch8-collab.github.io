@@ -8,11 +8,11 @@ font-size: 1-rem;
 } */
 
 .name {
- color: green
+ color: green;
 }
 .question {
- color: violet
- border: 5px
- border-color: SlateBlue
+ color: violet;
+ border: 5px;
+ border-color: SlateBlue;
 } 
 
