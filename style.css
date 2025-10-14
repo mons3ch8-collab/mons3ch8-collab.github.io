@@ -10,6 +10,9 @@ font-size: 1-rem;
 .name {
  color: green
 }
-.question{
+.question {
  color: violet
+ border: 5px
+ border-color: SlateBlue
 } 
+
