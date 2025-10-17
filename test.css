@@ -28,3 +28,12 @@ body {
 border-bottom: solid 1px white;
   padding-bottom: 12px; 
 }
+
+#role { 
+  color: #999999;
+}
+
+.f-cambria {
+  font-family: Cambria; 
+  font-weight: 400; 
+}
