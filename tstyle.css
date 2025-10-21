@@ -1,38 +1,38 @@
-body {
-  background-color: #222222; 
-  color: white;
+body
+{background-color: #012B0A
 }
-
-#card-container {
-  width: 512px;
-  height: 256px;
-  background-color: #111111;
-
-  margin: 0 auto;
-  padding: 12px;
-  text-align: center;
-
+#corner-head{
   border-style: solid; 
-  border-width: 2px;
-  border-color: #555555;
-  border-radius: 5px; 
+border-color: #124D1F;
+color: FFFFFF;
+text-decoration: underline;
+position: relative;
+right: 0%;
+top: 5%;
+margin: 3% 0% 3% 70%;
+padding: 2% 5%;
+border-radius: 5px;background-colour: #124D1F;}
+#c-text{
+background-color: #124D1F;
+  padding: 5%;
+  margin: 0 auto;
+  text-align: center;
+color: #FFFFFF; 
+width: 500px;
+border-radius: 8px;
 }
-#name {
-  margin-top: 64px;
-
-  text-transform: uppercase;
-  font-family: Helvetica; 
-  font-weight: 200;
-
-border-bottom: solid 1px white;
-  padding-bottom: 12px; 
-}
-
-#role { 
-  color: #999999;
-}
-
-.f-cambria {
-  font-family: Cambria; 
-  font-weight: 400; 
+#color{
+background-colour: #8A4304;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin: 0 auto;}
+#text {
+background-color: #124D1F; 
+padding: 5%;
+margin: 5% auto;
+text-align: center;
+color: #FFFFFF;
+width: 500px;
+border-radius: 8px;
 }
