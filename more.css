@@ -5,7 +5,7 @@ color: #3b2b0a;
 
 .sidebar {
 position: fixed;
-top: yes; /* Changed this to 0*/ 
+top: 0; /* Changed this to 0*/ 
 left: 0;
 width: 220px;
 height: 100%;
@@ -15,11 +15,11 @@ padding: 20px;
 box-shadow: 3px 0 8px rgba(0,0,0,0.2);
 }
 #sidebar h2 {
-color: what;
+color: white; /*dhanged color to white*/ 
 text-align: center;
 }
 #sidebar ul {
-list-style: none;
+list-style: none; 
 padding: 0;
 }
 #sidebar li {
@@ -27,7 +27,7 @@ margin: 15px 0;
 }
 #sidebar a {
 color: white;
-text-decoration: none;
+text-decoration: none; 
 }
 #sidebar a:hover {
 text-decoration: underline;
@@ -38,14 +38,14 @@ padding: 40px;
 background-color: fdf9f4;
 }
 .section {
-padding: 50;
+padding: 50px ; /* added missing semi px*/ 
 margin-bottom: 50px; /* Added a semi colon at the end*/ 
 border-radius: 10px;
 }
 .light {
 background-color: #fff8e6;
 }
-.dork {
+.dark { /* instead of dark i put dork*/ 
 
 background-color: #e7cba9;
 color: #3b2b0a;
