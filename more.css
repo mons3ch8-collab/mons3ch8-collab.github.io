@@ -3,6 +3,7 @@ font-family: "Trebuchet MS", sans-serif;
 margin: 0;
 color: #3b2b0a;
 } /* I added a missing curly brace in order to close the body sector. Because it was missing the css interpreted everything below it as inside the body causing layout issues and the coloring being messed up on the webpage. */ 
+
 #sidebar { /* I changed it from .siderbar to #sidebar in order to connect the sidebar styles being applied. There was no .sidebar in the html, therefore the css was not being linked correctly  */ 
 position: fixed;
 top: 0; /* I set the top value to 0 instead of an "yes". "Yes" is not a true value in css, disturbing the code.*/ 
