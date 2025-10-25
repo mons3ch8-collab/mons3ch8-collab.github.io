@@ -2,10 +2,10 @@ body {
 font-family: "Trebuchet MS", sans-serif;
 margin: 0;
 color: #3b2b0a;
-
-#sidebar { /* changed to # sidebar*/ 
+} /* I added a missing curly brace in order to close the body sector. Because it was missing the css interpreted everything below it as inside the body causing layout issues and the coloring being messed up on the webpage. */ 
+#sidebar { /* I changed it from .siderbar to #sidebar in order to connect the sidebar styles being applied. There was no .sidebar in the html, therefore the css was not being linked correctly  */ 
 position: fixed;
-top: 0; /* Changed this to 0*/ 
+top: 0; /* I set the top value to 0 instead of an "yes". "Yes" is not a true value in css, disturbing the code.*/ 
 left: 0;
 width: 220px;
 height: 100%;
@@ -15,7 +15,7 @@ padding: 20px;
 box-shadow: 3px 0 8px rgba(0,0,0,0.2);
 }
 #sidebar h2 {
-color: white; /*dhanged color to white*/ 
+color: white; /*I changed the color to white, instead of white. What is not a color, thus it is not valid css code. */ 
 text-align: center;
 }
 #sidebar ul {
@@ -35,29 +35,29 @@ text-decoration: underline;
 #content {
 margin-left: 250px;
 padding: 40px;
-background-color: fdf9f4;
+background-color: #fdf9f4; /* This hex code was missing a # infront of it. The # is required to be infront of hex codes, without the # the color would not be displayed.*/ 
 }
 .section {
-padding: 50px ; /* added missing semi px*/ 
-margin-bottom: 50px; /* Added a semi colon at the end*/ 
+padding: 50px ; /* I added the missing unit to the 50, for css legnth values need a unit to be considered valid code. */ 
+margin-bottom: 50px; /* Here there was a missing semi colon. Semi colons are reuired to seperate the indivdual style rules. */ 
 border-radius: 10px;
 }
 .light {
 background-color: #fff8e6;
 }
-.dark { /* instead of dark i put dork*/ 
+.dark { /* Instead of dork, I changed it to dark. Dork does not exist in the html hence, none of the styles being applied to dark were being linked. If the code does not match up exactly there will be errors. */ 
 
 background-color: #e7cba9;
 color: #3b2b0a;
 }
 .wool-box {
-position relative;
+position: relative; /* A required colon infront of the position was lacking. Without the colon, the properties and their value are not seperated leading to errors
 background-color: #f3e0b6;
 padding: 30px;
 margin-top: 25px;
 border-radius: 8px;
 }
-.wool-detail { /* Added a swirly bracket*/ 
+.wool-detail { /* There was a missing curly brace. In order for the styles to be linked, the curly brace is nessecary. */ 
 position: absolute;
 bottom: 10px;
 right: 10px;
