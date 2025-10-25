@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alpaca Adventures</title>
-<link rel="stylesheet" href="more.css"> <!--/In order to link my css to my html, I changed the href to more.css instead of alpacacss. This was incorrect, for if the name of ones css is written incorrectly, it will not link to the html.  "--> 
+<link rel="stylesheet" href="more.css"> <!--/In order to link my css to my html, I changed the href to more.css instead of alpacacss, as alpacacss was not the name of my css. This was incorrect, for if the name of one's css is written incorrectly, it will not link to the html.  "--> 
 </head>
   
 <body>
@@ -12,10 +12,9 @@
 <h2>🦙 Alpaca Adventures</h2>
 <h2> Name</h2>
 <ul>
-<li><a href="home">Home</a></li>
-<li><a href="#wool">Wool</a></li>
-<li><a href="#herds">Herd Life</a></li>
-<li><a href="#fun">Fun Facts</a>
+<li><a href="#home">Home</a></li> <!-- I added the missing # to the home. This was nessecary, since without the # it the id would not connect to a certain section in the same page--> 
+<li><a href="#herds">Herd Life</a></li> 
+<li><a href="#fun">Fun Facts</a></li> <!-- A list closing tag was missing at the end. Without it, it could cause some layering and styling issues such as other elements overlapping one another and the css being impacted.-->  
 </ul>
 </div>
   
@@ -24,23 +23,21 @@
 <h1>Welcome to Alpaca Adventures</h1>
 <p>Alpacas live in the mountains of Peru and are known for their soft wool and gentle
 personalities. They travel in groups called herds.</p>
-
-<div id=wool class=section dark>
-<h2>Wonderful Wool</h2> <!-- added the slash in the closing h2--> 
-</div> <!-- added a closing div--> 
+</div> <!-- This div was missing a closing tag. This interferes with the code by grouping other elements meant to be outside of the div, inside of it. Furthermore thisa disturbed the organization of the css, causing styling errors.  .--> 
+<div id="wool" class="section dark"> <!-- Required quatation marks in the id and class attributes were missing. Deprived of them, it could be invalid html code, causing errors. In addition to this the code would not know what was apart of the attributes, or could include one word but not the other as part of it. 
+<h2>Wonderful Wool</h2> <!-- I added a missing slash in the closing tag of the h2. This is required, since unwanted elements outside of the heading would be interpreted as apaprt of it.  -> 
 <p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy
 clothing.</p> <!--/Added a p tag--> 
 <div class="wool-box">
 <p>This box demonstrates <strong>absolute positioning</strong></p> <!--/ removed the period between the closing signs--> 
-<!-- removed unesscary p tag--> 
-<div class="wool-detail">
-I'm a smaller box positioned inside the larger one!</p>
+<!-- Here I moved a p tag down 2 spaces, as it was begining too early before the div tag. This was nesscary because that was inaccurate html code and div tags should not be placed p tags as it caused it to appear as an extra p tag.--> 
+<p>I'm a smaller box positioned inside the larger one!</p>
+</div>
 </div>
 </div>
 
 
   
- <!--/Removed extra closing div tag--> 
 <div id="herds" class="section light">
 <h2>The Herd Life</h2>
 <p>Alpacas are social animals and hum to each other to communicate. They also have a
@@ -49,14 +46,15 @@ leader that helps keep order in the group.</p>
 <div id="fun" class="section dark">
 <h2>Fun Facts</h2>
 <ul>
-<li>Alpacas can live up to 20 years.
+<li>Alpacas can live up to 20 years.</li> <!-- Here I put the closing <li> tag in it's correct position. This hinders the code, as it confuses it on what is in the list and what is not, making the items appear merged.--> 
 <li>They rarely spit at people — only other alpacas!</li>
-<li>Each alpaca has a unique “hum” sound.</li> </li>
+<li>Each alpaca has a unique “hum” sound.</li><!-- Here I removed the extra closing list tag, or I moved it in it's correct position above. Extra tags are redundant and increases the risk of a bug in one's code.--> 
 </ul>
 </div>
 <div id="footer">
 <p>© 2025 Alpaca Adventures</p>
 </div>
+
 
 </body>
 </html>
