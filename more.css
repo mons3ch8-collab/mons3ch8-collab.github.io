@@ -2,7 +2,7 @@ body {
 font-family: "Trebuchet MS", sans-serif;
 margin: 0;
 color: #3b2b0a;
-} /* I added a missing curly brace in order to close the body sector. Because it was missing the css interpreted everything below it as inside the body causing layout issues and the coloring being messed up on the webpage. */ 
+} /* I added a missing curly brace in order to close the body sector. Since it was missing, the css interpreted everything below it as inside the body causing layout issues and the coloring to be messed up on the webpage. */ 
 
 #sidebar { /* I changed it from .siderbar to #sidebar in order to connect the sidebar styles being applied. There was no .sidebar in the html, therefore the css was not being linked correctly  */ 
 position: fixed;
@@ -13,10 +13,10 @@ height: 100%;
 background-color: #d8b382;
 
 padding: 20px;
-box-shadow: 3px 0 8px rgba(0,0,0,0.2);
+box-shadow: 3px 0 8px rgba(0,0,0,0.2); /* rgb*/ 
 }
 #sidebar h2 {
-color: white; /*I changed the color to white, instead of white. What is not a color, thus it is not valid css code. */ 
+color: white; /*I changed the color to white, instead of what. This caused a bug, for what is not a color, thus it is not valid css code. */ 
 text-align: center;
 }
 #sidebar ul {
@@ -36,10 +36,10 @@ text-decoration: underline;
 #content {
 margin-left: 250px;
 padding: 40px;
-background-color: #fdf9f4; /* This hex code was missing a # infront of it. The # is required to be infront of hex codes, without the # the color would not be displayed.*/ 
+background-color: #fdf9f4; /* This hex code was missing a # infront of it. A # is required to be infront of hex codes, without the # the color would not be displayed.*/ 
 }
 .section {
-padding: 50px ; /* I added the missing unit to the 50, for css legnth values need a unit to be considered valid code. */ 
+padding: 50px; /* I added the missing unit to the 50, for css legnth values need a unit to be considered valid code. */ 
 margin-bottom: 50px; /* Here there was a missing semi colon. Semi colons are reuired to seperate the indivdual style rules. */ 
 border-radius: 10px;
 }
