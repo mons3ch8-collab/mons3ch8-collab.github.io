@@ -1,8 +1,16 @@
 body {
  /* background-color: #2ED1B3; */
- background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI4hqxtNSKJe2kZNAozgRgRy3cOBsoCNtQxW13w1Gt8UD00bACd1e6WJ0FR4ed8sa747s&usqp=CAU);
+ background-image: url(https://us.schleich-s.com/cdn/shop/products/14874_main_v24_TP.jpg?v=1699566398);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 } 
+.polaroid { 
+ width: 50%;
+ margin: auto;
+ background-color: #black; 
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), ;
+ margin-bottom: 25px;
+ border-radius: 5px;
+}
 
