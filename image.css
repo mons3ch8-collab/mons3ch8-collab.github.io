@@ -1,16 +1,27 @@
 body {
- /* background-color: #2ED1B3; */
- background-image: url(https://us.schleich-s.com/cdn/shop/products/14874_main_v24_TP.jpg?v=1699566398);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-} 
-.polaroid { 
- width: 50%;
- margin: auto;
- background-color: #black; 
- box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), ;
- margin-bottom: 25px;
- border-radius: 5px;
+  background-image: url("https://us.schleich-s.com/cdn/shop/products/14874_main_v24_TP.jpg?v=1699566398");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+.polaroid { 
+  width: 50%;
+  margin: auto;
+  background-color: black; /* Fixed color name */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.polaroid img { /* Fixed selector and extra dot */
+  width: 95%;
+  margin: auto;
+  border-radius: 5px;
+  display: block;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px; 
+}
