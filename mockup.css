@@ -5,13 +5,19 @@
   font-size: 30px;
 }
 
-.main {
+#main{
   background-image: url("https://www.shutterstock.com/image-vector/yellow-plaid-fabric-texture-background-260nw-2373869735.jpg");
    background-size: cover;
   background-position: center; 
   background-repeat: no-repeat; 
   padding: 40px; 
   border-radius: 10px; 
+}
+#main h2 { 
+font-size: 40px;
+ font-family: "The seasons";
+ text-decoration: underline; 
+ 
 }
 .img-fluid {
   margin-left: 100px;
@@ -34,21 +40,21 @@
   align-items: center; 
   height: 300px; 
 } 
-.burgers h2 {
+#burgers h2 {
   font-family: "The seasons"; 
   color: white;
    text-decoration: underline; 
   font-size: 60px;
 }
 
-.burgers {
+#burgers {
     position: relative;
       width: 100%;
       height: 390px;
       margin: auto;
       background-color: #0d3a7b;
 }
-.burgers p { 
+#burgers p { 
  text-align: center; 
 color: white;
   margin-right: 30px;
@@ -56,7 +62,50 @@ color: white;
   margin-left: 70px;
 }
 
-.sandwhiches {
+#sandwhich {
+ background-image: url("https://i.pinimg.com/736x/2d/0b/66/2d0b664434deca5ef3b6b5b483c726ca.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 40px; 
+  border-radius: 10px; 
+}
   
-  
+ #sandwhich p { 
+ text-align: center;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+#sandwhich h2 { 
+font-size: 60px; 
+color: #ed7c90;
+font-family: "The seasons";
+text-decoration: underline; 
+}
+
+#Sides {
+ background-image: url("https://media.rainpos.com/Checker/Y2902-20.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 40px; 
+  border-radius: 10px; 
+  height: 460px;
+}
+
+#Sides h2 { 
+font-size: 60px; 
+color: #2b4f06;
+font-family: "The seasons";
+text-decoration: underline; 
+}
+#Sides p {
+  text-align: center;
+  margin-right: 80px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+  font-size: 20px;
 }
