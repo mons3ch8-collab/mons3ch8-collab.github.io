@@ -1,18 +1,13 @@
-#first 
-{
-  background-color: #ffde59;
-}
 
-.custom-bg { /* here i colored my navbar yellow, changing the font, and made the font bigger*/ 
- background-color: #ffde59;
+.custom-bg { /* Here I made the container have a different font and enlarged it*/ 
   font-family: "The seasons";
   font-size: 30px;
 }
-#topnav { /*Here I am ensuring that as you scroll down the page the navbar stays in the same position on the screen */ 
+#topnav { /* I am ensuring that as you scroll down the page the navbar stays in the same position on the screen, addiionally I am coloring both the container and nav bar */ 
    background-color: #ffde59;
   position: sticky;
   top: 0;
-    z-index: 1000;
+   z-index: 1000;
  
 }
 
@@ -24,25 +19,25 @@
   padding: 60px; 
   border-radius: 10px; 
 }
-#main h2 { /* This section is customizing the h2 in the main dish section, making the font size bigger, underlining it, and changing the font*/ 
+#main h2 { /* This section is customizing the h2 in the main dish section, changing the font, underlining it, and making it bigger*/ 
   
 font-size: 40px;
  font-family: "The seasons";
  text-decoration: underline; 
  
 }
-.img-fluid { /* This section is customizing all of my images so that they are more spaced out */ 
+.img-fluid { /* This section is customizing all of my images for them to be spaced out  */ 
   margin-left: 50px;
   margin-right: 50px; 
   margin-bottom: 10px;
 }
 
-.other {  /* Here I am making a rectangular section with a light blue background */
+.other {  /* Here I am making a rectangular section with a light blue background  */
       width: 100%;
       height: 300px;
       background-color: #aae0e7;
 }
-.other h2{ /*Here I moved my h2 in the other section to the complete center of my screen, not just moving it to the middle at the top but lowering it as well to be completely centered */
+.other h2{ /* I moved my h2 in the "other" section to the complete center of my screen, not just moving it to the middle at the top but lowering it as well to be completely centered */
   font-family: "The seasons";
   text-decoration: underline; 
    display: flex;
@@ -50,21 +45,21 @@ font-size: 40px;
   align-items: center; 
   height: 300px; 
 } 
-#burgers h2 {
-  font-family: "The seasons"; 
-  color: white;
-   text-decoration: underline; 
-  font-size: 60px;
-}
 
-#burgers {
+#burgers { /* This is making a dark blue rectangular section , just making the background of the burger section*/
     position: relative;
       width: 100%;
       height: 390px;
       margin: auto;
       background-color: #0d3a7b;
 }
-#burgers p { 
+#burgers h2 { /*This part of my css is styling the h2 in the burger section by changing the font, underlining it, and making it bigger*/
+  font-family: "The seasons"; 
+  color: white;
+   text-decoration: underline; 
+  font-size: 60px;
+} 
+#burgers p { /*Here I am customzing the p tag in the burger section to make it centered and change the color of the font*/ 
  text-align: center; 
 color: white;
   margin-right: 30px;
@@ -72,7 +67,7 @@ color: white;
   margin-left: 70px;
 }
 
-#sandwhich {
+#sandwhich { /*I am making the background fo0r my sandwhich section, putting plaid image and adjusting it to fit the entire [age */ 
  background-image: url("https://i.pinimg.com/736x/2d/0b/66/2d0b664434deca5ef3b6b5b483c726ca.jpg");
   background-size: cover;
   background-position: center; 
@@ -80,8 +75,15 @@ color: white;
   padding: 40px; 
   border-radius: 10px; 
 }
-  
- #sandwhich p { 
+
+#sandwhich h2 { /*I am making the header in the sandwhich div bigger, giving it a color, and underlining it*/ 
+font-size: 60px; 
+color: #ed7c90;
+font-family: "The seasons";
+text-decoration: underline; 
+}
+
+ #sandwhich p { /*This customizes the p tag in my sandwhich area, centering it and  changing the font size */ 
  text-align: center;
   margin-right: 20px;
   margin-bottom: 40px;
@@ -89,14 +91,7 @@ color: white;
   font-size: 20px;
 }
 
-#sandwhich h2 { 
-font-size: 60px; 
-color: #ed7c90;
-font-family: "The seasons";
-text-decoration: underline; 
-}
-
-#Sides {
+#Sides { /*Again, I am giving the side sandwhich a background that will take up the entire screen*/ 
  background-image: url("https://media.rainpos.com/Checker/Y2902-20.jpg");
   background-size: cover;
   background-position: center; 
@@ -106,20 +101,20 @@ text-decoration: underline;
   height: 460px;
 }
 
-#Sides h2 { 
+#Sides h2 { /*I am making the header in the side section bigger, giving it a color, and underlining it*/
 font-size: 60px; 
 color: #2b4f06;
 font-family: "The seasons";
 text-decoration: underline; 
 }
-#Sides p {
+#Sides p { /*This customizes the p tag in my sides area, centering it and  changing the font size*/
   text-align: center;
   margin-right: 80px;
   margin-bottom: 100px;
   margin-left: 70px;
   font-size: 20px;
 }
-.second-page{
+.second-page{ /*Finally I am customzing my button, giving it a white color, changing the font, adding a border, making sure it appears on the bottom right of the webpage, and giving it a fixed position so it remains in the same place as you scroll down the webpage, */
   font-family: "The seasons"; 
   position: fixed;
   bottom: 20px;
