@@ -1,14 +1,19 @@
+#first 
+{
+  background-color: #ffde59;
+}
 
 .custom-bg { /* here i colored my navbar yellow, changing the font, and made the font bigger*/ 
-  background-color: #ffde59;
+ background-color: #ffde59;
   font-family: "The seasons";
   font-size: 30px;
 }
 #topnav { /*Here I am ensuring that as you scroll down the page the navbar stays in the same position on the screen */ 
- background-color: #ffde59;
+   background-color: #ffde59;
   position: sticky;
   top: 0;
-  z-index: 1000;
+    z-index: 1000;
+ 
 }
 
 #main{ /* Here I am customizing the first section in my webpage, adding a background image, ensuring it took up the entire screen*/
@@ -16,7 +21,7 @@
    background-size: cover;
   background-position: center; 
   background-repeat: no-repeat; 
-  padding: 40px; 
+  padding: 60px; 
   border-radius: 10px; 
 }
 #main h2 { /* This section is customizing the h2 in the main dish section, making the font size bigger, underlining it, and changing the font*/ 
@@ -115,6 +120,7 @@ text-decoration: underline;
   font-size: 20px;
 }
 .second-page{
+  font-family: "The seasons"; 
   position: fixed;
   bottom: 20px;
   right: 20px;
