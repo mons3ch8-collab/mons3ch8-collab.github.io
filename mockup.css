@@ -5,7 +5,7 @@
   font-size: 30px;
 }
 #topnav { /*Here I am ensuring that as you scroll down the page the navbar stays in the same position on the screen */ 
-   background-color: #ffde59;
+ background-color: #ffde59;
   position: sticky;
   top: 0;
   z-index: 1000;
