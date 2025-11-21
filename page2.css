@@ -1,1 +1,33 @@
 
+.custom-bg { 
+  font-family: "The seasons";
+  font-size: 30px;
+  background-color: #aad3ee; 
+}
+#real { 
+   color: white;
+  text-align: center;
+   margin-right: 30px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+}
+
+#what {
+  color: white;
+  text-align: center;
+   margin-right: 30px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+}
+#location {
+   color: white;
+  text-align: left;
+   margin-right: 30px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+}
+#location p {
+  margin-bottom: 100px;
+  margin-left: 60px;
+  margin
+}
