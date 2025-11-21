@@ -1,78 +1,118 @@
-body {
-font-family: "Trebuchet MS", sans-serif;
-margin: 0;
-color: #3b2b0a;
-} /* I added a missing curly brace in order to close the body sector. Since it was missing, the css interpreted everything below it as inside the body causing layout issues and the coloring to be messed up on the webpage. */ 
 
-#sidebar { /* I changed it from .siderbar to #sidebar in order to connect the sidebar styles being applied. There was no .sidebar in the html, therefore the css was not being linked correctly  */ 
-position: fixed;
-top: 0; /* I set the top value to 0 instead of an "yes". "Yes" is not a true value in css, disturbing the code.*/ 
-left: 0;
-width: 220px;
-height: 100%;
-background-color: #d8b382;
+.custom-bg { /* here i colored my navbar yellow, changing the font, and made the font bigger*/ 
+  background-color: #ffde59;
+  font-family: "The seasons";
+  font-size: 30px;
+}
+#topnav { /*Here I am ensuring that as you scroll down the page the navbar stays in the same position on the screen */ 
+   background-color: #ffde59;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
-padding: 20px;
-box-shadow: 3px 0 8px rgba(0,0,0,0.2); /* rgb*/ 
+#main{ /* Here I am customizing the first section in my webpage, adding a background image, ensuring it took up the entire screen*/
+  background-image: url("https://www.shutterstock.com/image-vector/yellow-plaid-fabric-texture-background-260nw-2373869735.jpg");
+   background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 40px; 
+  border-radius: 10px; 
 }
-#sidebar h2 {
-color: white; /*I changed the color to white, instead of what. This caused a bug, for what is not a color, thus it is not valid css code. */ 
-text-align: center;
+#main h2 { /* This section is customizing the h2 in the main dish section, making the font size bigger, underlining it, and changing the font*/ 
+  
+font-size: 40px;
+ font-family: "The seasons";
+ text-decoration: underline; 
+ 
 }
-#sidebar ul {
-list-style: none; 
-padding: 0;
+.img-fluid { /* This section is customizing all of my images so that they are more spaced out */ 
+  margin-left: 50px;
+  margin-right: 50px; 
+  margin-bottom: 10px;
 }
-#sidebar li {
-margin: 15px 0;
+
+.other {  /* Here I am making a rectangular section with a light blue background */
+      width: 100%;
+      height: 300px;
+      background-color: #aae0e7;
 }
-#sidebar a {
+.other h2{ /*Here I moved my h2 in the other section to the complete center of my screen, not just moving it to the middle at the top but lowering it as well to be completely centered */
+  font-family: "The seasons";
+  text-decoration: underline; 
+   display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 300px; 
+} 
+#burgers h2 {
+  font-family: "The seasons"; 
+  color: white;
+   text-decoration: underline; 
+  font-size: 60px;
+}
+
+#burgers {
+    position: relative;
+      width: 100%;
+      height: 390px;
+      margin: auto;
+      background-color: #0d3a7b;
+}
+#burgers p { 
+ text-align: center; 
 color: white;
-text-decoration: none; 
-}
-#sidebar a:hover {
-text-decoration: underline;
-}
-#content {
-margin-left: 250px;
-padding: 40px;
-background-color: #fdf9f4; /* This hex code was missing a # infront of it. A # is required to be infront of hex codes, without the # the color would not be displayed.*/ 
-}
-.section {
-padding: 50px; /* I added the missing unit to the 50, for css legnth values need a unit to be considered valid code. */ 
-margin-bottom: 50px; /* Here there was a missing semi colon. Semi colons are reuired to seperate the indivdual style rules. */ 
-border-radius: 10px;
-}
-.light {
-background-color: #fff8e6;
-}
-.dark { /* Instead of dork, I changed it to dark. Dork does not exist in the html hence, none of the styles being applied to dark were being linked. If the code does not match up exactly there will be errors. */ 
-
-background-color: #e7cba9;
-color: #3b2b0a;
-}
-.wool-box {
-position: relative; /* A required colon infront of the position was lacking. Without the colon, the properties and their value are not seperated leading to errors*/  
-background-color: #f3e0b6;
-padding: 30px;
-margin-top: 25px;
-border-radius: 8px;
-}
-.wool-detail { /* There was a missing curly brace. In order for the styles to be linked, the curly brace is nessecary. */ 
-position: absolute;
-bottom: 10px;
-right: 10px;
-background-color: #d4a373;
-color: white;
-padding: 10px;
-border-radius: 5px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  margin-left: 70px;
 }
 
-#footer {
-text-align: center;
-padding: 20px;
-background-color: #d8b382;
-color: white;
+#sandwhich {
+ background-image: url("https://i.pinimg.com/736x/2d/0b/66/2d0b664434deca5ef3b6b5b483c726ca.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 40px; 
+  border-radius: 10px; 
+}
+  
+ #sandwhich p { 
+ text-align: center;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+#sandwhich h2 { 
+font-size: 60px; 
+color: #ed7c90;
+font-family: "The seasons";
+text-decoration: underline; 
+}
+
+#Sides {
+ background-image: url("https://media.rainpos.com/Checker/Y2902-20.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 40px; 
+  border-radius: 10px; 
+  height: 460px;
+}
+
+#Sides h2 { 
+font-size: 60px; 
+color: #2b4f06;
+font-family: "The seasons";
+text-decoration: underline; 
+}
+#Sides p {
+  text-align: center;
+  margin-right: 80px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+  font-size: 20px;
 }
 .second-page{
   position: fixed;
