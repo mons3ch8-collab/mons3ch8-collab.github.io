@@ -1,16 +1,35 @@
-
-.custom-bg { 
+html body { /*this gives my entire wepage a light blur background */
+  background-color: #aad3ee;
+}
+.custom-bg { /* Here I made a container that will stretch across my entire website, I also gave the content inside of it a font*/ 
   font-family: "The seasons";
   font-size: 30px;
-  background-color: #aad3ee; 
 }
-#real { 
+#topnav { /* I am ensuring that as you scroll down the page the navbar stays in the same position on the screen, addiionally I am coloring both the container and nav bar */ 
+  background-color: #aad3ee; 
+  position: sticky;
+  top: 0;
+   z-index: 1000;
+}
+#real { /*Here I am making a section for my information and centering that information to the middle of the page */
    color: white;
   text-align: center;
    margin-right: 30px;
   margin-bottom: 100px;
-  margin-left: 70px;
+  margin-left: 70px; 
+  font-family: "The seasons";
 }
+#real h1 { /* I am customizing my h1 in the real section, giving it a font size and bolding it to portray this is the main header*/ 
+  font-size: 60px;
+  font-weight: bold; 
+}
+#real h2 { /*I changed the font size of the h2 to be porpotional with the h1 */ 
+    font-size: 50px; 
+}
+#real li{ /*Here I changed the font size of my list as they appeared very small before. Now it is porportional with the headers */ 
+  font-size: 30px;
+}
+/*For the next 2 sections I repeat the same steps i used for this section*/
 
 #what {
   color: white;
@@ -19,15 +38,39 @@
   margin-bottom: 100px;
   margin-left: 70px;
 }
+#what h2 { 
+  font-family: "The seasons";
+    font-size: 60px;
+  font-weight: bold; 
+}
+#what p { 
+font-family: "The seasons";
+font-size: 30px; 
+}
 #location {
    color: white;
   text-align: left;
    margin-right: 30px;
   margin-bottom: 100px;
   margin-left: 70px;
+  position: relative; /*I made this position relative/ the parent in order to position a child element later in the code*/
+  min-height: 250px; /*this makes it so that the phone # button goes down further rather than being at the bottom of the location div*/
+}
+#location h2 {
+  font-family: "The seasons";
+  font-size: 60px; 
+  font-weight: bold;
 }
 #location p {
   margin-bottom: 100px;
   margin-left: 60px;
-  margin
+  font-size: 30px;
+}
+#location button { /*This customizes my button, giving a border and coloring it white so it stands out in my wepage. Furthermore, it positions the button to be on the bottom right. */
+    position: absolute; /*This is the child element and allows my button to be more to the right/bottom of my webpage*/ 
+    right: 0;
+    bottom: 0;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: white;
 }
