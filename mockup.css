@@ -10,6 +10,11 @@
    z-index: 1000;
  
 }
+.img-fluid { /* This section is customizing all of my images for them to be spaced out  */ 
+  margin-left: 50px;
+  margin-right: 50px; 
+  margin-bottom: 10px;
+}
 
 #main{ /* Here I am customizing the first section in my webpage, adding a background image, ensuring it took up the entire screen*/
   background-image: url("https://www.shutterstock.com/image-vector/yellow-plaid-fabric-texture-background-260nw-2373869735.jpg");
@@ -25,11 +30,6 @@ font-size: 40px;
  font-family: "The seasons";
  text-decoration: underline; 
  
-}
-.img-fluid { /* This section is customizing all of my images for them to be spaced out  */ 
-  margin-left: 40px;
-  margin-right: 40px; 
-  margin-bottom: 10px;
 }
 
 .other {  /* Here I am making a rectangular section with a light blue background  */
