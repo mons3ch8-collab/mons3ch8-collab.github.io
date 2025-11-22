@@ -26,7 +26,8 @@ html body { /*this gives my entire wepage a light blur background */
 #real h2 { /*I changed the font size of the h2 to be porpotional with the h1 */ 
     font-size: 50px; 
 }
-#real li{ /*Here I changed the font size of my list as they appeared very small before. Now it is porportional with the headers */ 
+#real li{ 
+  /*Here I changed the font size of my list as they appeared very small before. Now it is porportional with the headers */ 
   font-size: 30px;
 }
 /*For the next 2 sections I repeat the same steps i used for this section*/
@@ -49,11 +50,11 @@ font-size: 30px;
 }
 #location {
    color: white;
-  text-align: left;
+  text-align: center;
    margin-right: 30px;
   margin-bottom: 100px;
   margin-left: 70px;
-  position: relative; /*I made this position relative/ the parent in order to position a child element later in the code*/
+ position: relative; /*I made this position relative/ the parent in order to position a child element later in the code*/
   min-height: 250px; /*this makes it so that the phone # button goes down further rather than being at the bottom of the location div*/
 }
 #location h2 {
@@ -66,11 +67,14 @@ font-size: 30px;
   margin-left: 60px;
   font-size: 30px;
 }
-#location button { /*This customizes my button, giving a border and coloring it white so it stands out in my wepage. Furthermore, it positions the button to be on the bottom right. */
+#location button{ /*This customizes my button, giving a border and coloring it white so it stands out in my wepage. Furthermore, it positions the button to be on the bottom right. */
     position: absolute; /*This is the child element and allows my button to be more to the right/bottom of my webpage*/ 
     right: 0;
     bottom: 0;
   right: 20px;
   padding: 10px 15px;
   background-color: white;
+}
+#location button:hover { /*This makes it so when your mouse is hovering over the button it gets bigger*/ 
+  transform: scale(1.3);
 }
