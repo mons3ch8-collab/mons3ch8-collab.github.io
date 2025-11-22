@@ -67,7 +67,7 @@ color: white;
   margin-left: 70px;
 }
 
-#sandwhich { /*I am making the background fo0r my sandwhich section, putting plaid image and adjusting it to fit the entire [age */ 
+#sandwich { /*I am making the background fo0r my sandwich section, putting plaid image and adjusting it to fit the entire [age */ 
  background-image: url("https://i.pinimg.com/736x/2d/0b/66/2d0b664434deca5ef3b6b5b483c726ca.jpg");
   background-size: cover;
   background-position: center; 
@@ -76,14 +76,14 @@ color: white;
   border-radius: 10px; 
 }
 
-#sandwhich h2 { /*I am making the header in the sandwhich div bigger, giving it a color, and underlining it*/ 
+#sandwich h2 { /*I am making the header in the sandwhich div bigger, giving it a color, and underlining it*/ 
 font-size: 60px; 
 color: #ed7c90;
 font-family: "The seasons";
 text-decoration: underline; 
 }
 
- #sandwhich p { /*This customizes the p tag in my sandwhich area, centering it and  changing the font size */ 
+ #sandwich p { /*This customizes the p tag in my sandwhich area, centering it and  changing the font size */ 
  text-align: center;
   margin-right: 20px;
   margin-bottom: 40px;
